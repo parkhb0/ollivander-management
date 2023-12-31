@@ -1,0 +1,39 @@
+.salees_channel_box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+}
+
+.channel {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.625rem;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.farm_name {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.farm_address {
+  margin-top: 0.825rem;
+  display: flex;
+  justify-content: center;
+  font-size: 0.825rem;
+  font-weight: 400;
+}
+
+.farm_cultivar {
+  margin-top: 0.825rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 0.825rem;
+  font-weight: 400;
+}

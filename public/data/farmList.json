@@ -1,0 +1,110 @@
+[
+  {
+    "farm_id": "FI_27cd9dfd-6bd0-42a1-a853-97c390477e8e",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "프리미엄 MSC 마하차녹 무지개망고(원산지: 태국)",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "2023-06-20 20:22:57.319",
+    "product_id_list": [
+      {
+        "S": "PI_e8cd256a-aeb2-4d69-9a8b-954b9b9d757d"
+      },
+      {
+        "S": "PI_ca95200b-449a-4f81-841f-4da2856267b7"
+      },
+      {
+        "S": "PI_969dd661-ca5d-4a50-b07b-a6fcb68470d3"
+      },
+      {
+        "S": "PI_f03d3616-98f1-4de3-a4d2-53e7c46cfed6"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": true
+    },
+    "update_datetime": "2023-06-20 20:26:25.923",
+    "update_user_name": "홍길동"
+  },
+  {
+    "farm_id": "FI_208527be-4f90-4670-afc2-bcf596bede82",
+    "farm_address": "세종특별자치시 한누리",
+    "farm_available": true,
+    "farm_cultivar": "매일두유",
+    "farm_location": "세종특별자치시 한누리",
+    "farm_name": "매일유업",
+    "farm_photo_list": "",
+    "farm_type": "가공시설 / 기타",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_eefd7290-360b-4de1-9229-a0bc55a29aa4"
+      },
+      {
+        "S": "PI_07e8ef0d-9b66-4214-a38a-1320c1d94f36"
+      },
+      {
+        "S": "PI_2f566e9d-16c3-4c2b-864f-349e201a1cc1"
+      },
+      {
+        "S": "PI_8ce31a02-3b35-4f77-943d-1a2d2ca5a119"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": true,
+      "cingle": true,
+      "kakao": true,
+      "coupang": true,
+      "alwayz": true,
+      "11thstreet": true,
+      "naver": true
+    },
+    "update_datetime": "2023-05-12 08:56:00.937",
+    "update_user_name": "홍길동"
+  },
+  {
+    "farm_id": "FI_2c0481b7-1c65-4394-92a1-cfbb57330203",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "항공 캘리포니아 생체리 (원산지: 미국산)",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_7a31ef90-4ee0-4f59-bd22-6d00b9ad2abc"
+      },
+      {
+        "S": "PI_f98f869d-957f-4c8f-a9a7-8417675119c5"
+      },
+      {
+        "S": "PI_5a5ff82e-0cbb-4f15-9408-7ec014450c1b"
+      },
+      {
+        "S": "PI_d0f8f9b6-aa04-4297-8710-234e36ee0e5b"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": true,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-06-20 21:17:19.372",
+    "update_user_name": "홍길동"
+  }
+]

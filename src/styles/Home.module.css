@@ -1,0 +1,6 @@
+.product {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  /* background-color: rgb(189, 227, 176); */
+}
