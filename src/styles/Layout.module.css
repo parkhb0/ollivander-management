@@ -18,7 +18,7 @@
 .leftSectionFixed {
   position: fixed;
   width: inherit;
-  padding: 0 8px;
+  /* padding: 0 8px; */
   height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
 .rightSectionWrapper {
   display: flex;
   align-items: flex-start;
-  height: 100dvh;
+  /* height: 100dvh; */
   flex-direction: column;
   flex-grow: 1;
   background-color: rgb(230, 230, 204);
@@ -37,8 +37,8 @@
 .rightSection {
   display: none;
 }
+
 .rightSectionInner {
-  /* height: 100%; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@
 
 @media all and (min-width: 1300px) {
   .leftSection {
-    width: 275px;
+    width: 180px;
   }
   .leftSectionFixed {
     align-items: flex-start;

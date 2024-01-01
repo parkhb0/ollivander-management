@@ -1,6 +1,45 @@
 .product {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
-  /* background-color: rgb(189, 227, 176); */
+}
+
+.filterWrap {
+  /* width: 100%;
+  max-width: 740px;
+  height: 50px; */
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: end; */
+  margin-bottom: 10px;
+  /* overflow-x: scroll; */
+}
+
+.filterWrap > button {
+  width: 100%;
+  max-width: 120px;
+  height: 45px;
+  /* margin-left: 10px; */
+  /* padding: 10px 10px; */
+  border: 0px;
+  border-radius: 5px;
+  background-color: #5e584e;
+  color: #ffffff;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.selectWrap {
+  width: 100%;
+  display: flex;
+  /* justify-content: end; */
+  margin-bottom: 10px;
+}
+
+.select {
+  height: 30px;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #5e584e;
 }

@@ -3,6 +3,7 @@ import App from "../App";
 import Home from "../pages/Home";
 import Farm from "../pages/Farm";
 import FarmDetail from "../pages/FarmDetail";
+import FarmAdd from "../pages/FarmAdd";
 import ErrorPage from "../pages/error-page";
 
 const rootRouter = createBrowserRouter([
@@ -23,6 +24,10 @@ const rootRouter = createBrowserRouter([
       {
         path: "/farm/:farm_id",
         element: <FarmDetail />,
+      },
+      {
+        path: "/add",
+        element: <FarmAdd />,
       },
     ],
   },

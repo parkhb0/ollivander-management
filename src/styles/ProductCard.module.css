@@ -14,7 +14,7 @@
 }
 
 .farm_name {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   font-size: 1.25rem;
@@ -22,18 +22,42 @@
 }
 
 .farm_address {
-  margin-top: 0.825rem;
   display: flex;
   justify-content: center;
+  margin-top: 0.825rem;
+  font-size: 0.825rem;
+  font-weight: 400;
+  height: 30px;
+  overflow: hidden;
+  vertical-align: top;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.farm_cultivar {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0.825rem;
   font-size: 0.825rem;
   font-weight: 400;
 }
 
-.farm_cultivar {
-  margin-top: 0.825rem;
+.farm_btn_wrap {
+  width: "100%";
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  font-size: 0.825rem;
-  font-weight: 400;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.farm_btn_wrap > button {
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #978f83;
+  color: #ffffff;
+  text-align: center;
 }

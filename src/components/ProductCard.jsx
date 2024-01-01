@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import style from "../styles/ProductCard.module.css";
 
 export default function ProductCard({ farm }) {
@@ -18,6 +19,7 @@ export default function ProductCard({ farm }) {
     Object.values(sales_channel)
   );
   const salesChannelName = Object.keys(farm.sales_channel);
+  const navigate = useNavigate();
 
   const handleSalesChannelActiveChange = (e) => {
     const _sales_channel = [...salesChannel];
@@ -195,6 +197,11 @@ export default function ProductCard({ farm }) {
       <div className={style.farm_cultivar}>
         <span style={{ fontWeight: "600", width: "100%" }}>상품명</span>
         {farm_cultivar}
+      </div>
+      <div className={style.farm_btn_wrap}>
+        <button onClick={() => navigate(`/farm/${farm_id}`)}>
+          제품 자세히 보기
+        </button>
       </div>
     </div>
   );

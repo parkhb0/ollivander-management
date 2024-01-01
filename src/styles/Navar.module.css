@@ -1,7 +1,23 @@
-/* .left {
-  width: 20dvw;
+.leftMenu {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff5bb;
-} */
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+
+.leftMenu > div {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ededed;
+}
+
+.icon {
+  padding-right: 10px;
+}

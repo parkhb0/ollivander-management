@@ -106,5 +106,882 @@
     },
     "update_datetime": "2023-06-20 21:17:19.372",
     "update_user_name": "홍길동"
+  },
+  {
+    "farm_id": "FI_4f96eea4-3cde-4f47-bef2-2ac337b10230",
+    "farm_address": "충남 부여군 구룡면 망해로295번길 8-18",
+    "farm_available": true,
+    "farm_cultivar": "알밤 (등급: 특)",
+    "farm_location": "충남 부여군 구룡면 망해로295번길 8-18",
+    "farm_name": "두메산골 영농조합법인",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_f3aac0b5-d355-42f1-ba6a-3c1b75832a6e"
+      },
+      {
+        "S": "PI_94f9126f-b41f-4f11-a602-1bfb537a1b58"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-07 17:56:45.093",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_c577356a-9d8b-4658-85e2-6bf3e45ba63a",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "메로골드 청자몽 (원산지: 미국)",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_9079dca2-2cad-44b1-9d5c-5a5af51e6d4f"
+      },
+      {
+        "S": "PI_bb65a0da-ec18-4fb0-8aa1-b1ac96a83361"
+      },
+      {
+        "S": "PI_93655245-933a-48f5-8bc1-ecb2c771decf"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-02-07 16:24:32.384",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_3ae0583f-314b-47c5-aba4-f8ec32d3cb48",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "태국 골드망고 남독마이",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "2023-06-20 20:19:19.061",
+    "product_id_list": [
+      {
+        "S": "PI_89bdf314-adcf-4c29-a29c-eb79b4405eb7"
+      },
+      {
+        "S": "PI_abae1f0a-6475-4f1b-9b4e-2f387d642486"
+      },
+      {
+        "S": "PI_cc012e63-169d-4ca6-8459-4bc846625824"
+      },
+      {
+        "S": "PI_75937609-6f3a-49e5-a482-9db901ecf126"
+      },
+      {
+        "S": "PI_85787062-4d99-4004-a76e-14cffbc59a2e"
+      },
+      {
+        "S": "PI_173b0feb-b8c5-4350-a742-bf447acb17b8"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-04-10 08:38:00.165",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_2945bb19-6b53-4424-9cb3-17704417b49b",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "고당도 크림슨 셀러브레이션 적포도 (원산지: 페루 )",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_e0b7d220-5c88-49ce-b264-083e6d061a12"
+      },
+      {
+        "S": "PI_ce8baed2-081b-45d2-92e6-074431c08403"
+      },
+      {
+        "S": "PI_4be72b25-097e-4930-a96c-fa058ef6c8a8"
+      },
+      {
+        "S": "PI_eb9ac15c-c2c0-47e3-8bc5-71dfc6cbd3d7"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-03-31 11:42:03.524",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_e88ff7ef-fd36-4db9-8c49-a412242e580c",
+    "farm_address": "서울 동작구 사당로2차길 66",
+    "farm_available": true,
+    "farm_cultivar": "경기미 (품종: 혼합  /  등급: 상)",
+    "farm_location": "서울 동작구 사당로2차길 66",
+    "farm_name": "늘찬팜",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_8686bd99-13e8-476c-bdfd-082ec45f2c0d"
+      },
+      {
+        "S": "PI_4f11338e-8e61-4952-bbc0-42dfe65189d8"
+      },
+      {
+        "S": "PI_86e8b155-30f3-4b11-9f84-b95a5bc66b9a"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-11 08:55:06.438",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_7852834a-70bc-4708-956f-b1d181515777",
+    "farm_address": "경북 영천시 화산면 장수로 856",
+    "farm_available": true,
+    "farm_cultivar": "추희 자두",
+    "farm_location": "경북 영천시 화산면 장수로 856",
+    "farm_name": "꿀벌 농장",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_fe455bdf-7576-4658-8683-04af8c27e538"
+      },
+      {
+        "S": "PI_bb6bdc0e-fe2f-4598-a50b-55511a0798ab"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-07 14:06:11.645",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_973d5776-46ae-49d0-b3c5-107cc2608c85",
+    "farm_address": "전남 무안군 현경면 구산길 31",
+    "farm_available": true,
+    "farm_cultivar": "원추 단감 (등급: 상)",
+    "farm_location": "전남 무안군 현경면 구산길 31",
+    "farm_name": "현화 농장",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_4cf0aa01-de49-4e21-8312-37d1aec35946"
+      },
+      {
+        "S": "PI_27c36497-de80-4303-9ea0-b15c390faa21"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-07 18:58:52.898",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_73effac0-65f3-43f7-8465-6b51927dceaa",
+    "farm_address": "부산 강서구 대저들길 151-13",
+    "farm_available": true,
+    "farm_cultivar": "대저짭짤이토마토",
+    "farm_location": "부산 강서구 대저들길 151-13",
+    "farm_name": "은아농장",
+    "farm_photo_list": "",
+    "farm_type": "하우스 토경재배 (난방O)",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_359fd778-389b-4676-b90c-d2cb36c01b8b"
+      },
+      {
+        "S": "PI_83c4360b-17c0-43da-8aa2-9092c3cf6912"
+      },
+      {
+        "S": "PI_2bf6eef4-f8d2-46ae-a4c4-2033c2ffb501"
+      },
+      {
+        "S": "PI_ad035ff9-b0eb-4d5a-9719-11d402e02288"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": true,
+      "coupang": true,
+      "alwayz": true,
+      "11thstreet": true,
+      "naver": true
+    },
+    "update_datetime": "2023-02-10 15:30:54.464",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_8166c9f6-87e3-47fe-8aeb-4ab87b3ae275",
+    "farm_address": "충남 부여군 구룡면 망해로295번길 8-18",
+    "farm_available": true,
+    "farm_cultivar": "뜨레 칼집밤 (등급: 특)",
+    "farm_location": "충남 부여군 구룡면 망해로295번길 8-18",
+    "farm_name": "두메산골 영농조합법인",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_dab364f9-1903-4533-ad62-8fa4b8431ec6"
+      },
+      {
+        "S": "PI_0ecfe4b4-489c-49d4-b317-f020835d2f1f"
+      },
+      {
+        "S": "PI_be083d6a-b0bd-49f0-932e-2799c2a1b2e3"
+      },
+      {
+        "S": "PI_5bfe7eec-6f60-4deb-8b45-eee22d29ead5"
+      },
+      {
+        "S": "PI_5c41706c-cb60-4e3f-9d3f-44b019b6ed0e"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-07 18:22:06.796",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_2f352c4b-c99a-4a5a-8ee3-5d1e67587b4e",
+    "farm_address": "부산 강서구 공항로239번길 166",
+    "farm_available": true,
+    "farm_cultivar": "크라운 없는 돌파인애플 (원산지: 필리핀)",
+    "farm_location": "부산 강서구 공항로239번길 166",
+    "farm_name": "월드마켓",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "2023-03-09 14:15:24.976",
+    "product_id_list": [
+      {
+        "S": "PI_73be198c-a7e5-4d25-a890-8ceba8c88a48"
+      },
+      {
+        "S": "PI_9ce85ca8-e6e8-4c4f-ae58-763bc5e4b178"
+      },
+      {
+        "S": "PI_4eef86d7-ada0-4428-bc23-aaaf83ea2ce1"
+      },
+      {
+        "S": "PI_a2d69d37-80fe-4432-80ff-4247807cb187"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-02-16 22:04:30.654",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_60c1ebf1-79dd-43ed-9719-64e8a437fd9f",
+    "farm_address": "충남 부여군 구룡면 흥수로 113",
+    "farm_available": true,
+    "farm_cultivar": "하우스 수박 (지역: 충남 부여)",
+    "farm_location": "충남 부여군 구룡면 흥수로 113",
+    "farm_name": "구룡농협 농산물유통센터",
+    "farm_photo_list": [
+      {
+        "M": {
+          "photo_description": {
+            "S": "-. 부여군에서 수확하는 하우스 수박 일체\n-. 12brix 이상 되는 수박으로만 출고\n-. 이마트 납품 위주"
+          },
+          "update_user_name": {
+            "S": "박찬호"
+          },
+          "update_datetime": {
+            "S": "2023-05-09 11:53:56.640"
+          },
+          "photo_presigned_url": {
+            "S": "FT_0fff2b82-6cf3-4cbb-9cb7-0642388020e5"
+          }
+        }
+      }
+    ],
+    "farm_type": "하우스 토경재배 (난방X)",
+    "marked_datetime": "2023-05-09 16:54:04.156",
+    "product_id_list": [
+      {
+        "S": "PI_9a25c9c4-0500-4b0e-b0dd-e8d3e81045af"
+      },
+      {
+        "S": "PI_b716729b-3ecd-40a0-8f5b-cb78d3ac2613"
+      },
+      {
+        "S": "PI_a31b54ba-a9ed-45c4-abed-447bb4dd6b53"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": true,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-05-09 08:50:11.819",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_f21e0940-347b-4776-b8d7-ea84402cdba0",
+    "farm_address": "서울 동작구 사당로2차길 66",
+    "farm_available": true,
+    "farm_cultivar": "잡곡류 (품종: 적두)",
+    "farm_location": "서울 동작구 사당로2차길 66",
+    "farm_name": "늘찬팜",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_b1e1b0b2-e6f7-40d3-8474-6f95d7cdd3b5"
+      },
+      {
+        "S": "PI_57dfdf5f-d342-4e6d-9993-dd22700d3e74"
+      },
+      {
+        "S": "PI_c30d325d-463b-4b8d-b5f3-c6524b6a5c83"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-11 09:29:17.419",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_df797eb1-6709-4212-99d4-035ccb3930c6",
+    "farm_address": "서울 동작구 사당로2차길 66",
+    "farm_available": true,
+    "farm_cultivar": "양곡류 (품종: 늘보리)",
+    "farm_location": "서울 동작구 사당로2차길 66",
+    "farm_name": "늘찬팜",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_61675e56-fbb8-497b-a78e-e40401f282ad"
+      },
+      {
+        "S": "PI_4a757dd3-f396-4cd3-aaf0-77d5911edb3b"
+      },
+      {
+        "S": "PI_4467ab79-80f3-4afc-bf2e-84b0c2afd4b4"
+      },
+      {
+        "S": "PI_255d720d-7224-4bd0-b771-792a3a1a20ee"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-11 09:15:20.719",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_4196ad79-1e22-4805-841c-5d4e0fcea077",
+    "farm_address": "경기 여주시 흥천면 문바실길 92",
+    "farm_available": true,
+    "farm_cultivar": "백다다기 오이",
+    "farm_location": "경기 여주시 흥천면 문바실길 92",
+    "farm_name": "(주)장수",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_9f438bdd-b476-406e-8a90-696f3efc0bce"
+      },
+      {
+        "S": "PI_89b777ec-60ae-4a61-ac2c-f54e2af5f044"
+      },
+      {
+        "S": "PI_288f7b2c-205f-49b5-868f-c8f7d81db620"
+      },
+      {
+        "S": "PI_31c6d85c-5849-45fc-bf33-490feaf9a16a"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-07-11 11:22:38.659",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_cacaa7ec-d737-4c9b-a263-37c0c2778abe",
+    "farm_address": "경북 영천시 장천길 131-18",
+    "farm_available": true,
+    "farm_cultivar": "아삭이 털복숭아(구분: 7월 수확 복숭아)",
+    "farm_location": "경북 영천시 장천길 131-18",
+    "farm_name": "농업회사법인 다미(주)",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_4d46c1fa-21e3-4953-9c98-d3c2fb71382e"
+      },
+      {
+        "S": "PI_16f1bc59-9d4a-4000-923b-2b5a6f7c1b18"
+      },
+      {
+        "S": "PI_18be33b0-c558-42b0-aa18-c9cff8eb5aad"
+      },
+      {
+        "S": "PI_e5dff4be-8b46-4725-be20-ad92fde42b80"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-07-06 10:54:03.850",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_f3c8c3bd-f7d7-4bb7-b17e-2bed0dbe3747",
+    "farm_address": "서울 동작구 사당로2차길 66",
+    "farm_available": true,
+    "farm_cultivar": "이천쌀 (품종: 알찬미  /  등급: 특)",
+    "farm_location": "서울 동작구 사당로2차길 66",
+    "farm_name": "늘찬팜",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_92f5f8ca-24bf-4ad9-bfb1-52e4c4d8a8c9"
+      },
+      {
+        "S": "PI_7e6b4749-79d1-4982-a02d-be23f935dd0b"
+      },
+      {
+        "S": "PI_a56a0b2e-e310-4540-a6c6-1a97e401803a"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": true,
+      "coupang": true,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": true
+    },
+    "update_datetime": "2023-01-10 19:57:36.486",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_b56a02a9-8846-4648-8646-57abbe21fa44",
+    "farm_address": "전북 무주군 부남면 상평당길 19-66",
+    "farm_available": true,
+    "farm_cultivar": "계란",
+    "farm_location": "전북 무주군 부남면 상평당길 19-66",
+    "farm_name": "피그말리온 허브(주)",
+    "farm_photo_list": [
+      {
+        "M": {
+          "photo_description": {
+            "S": "-.삼림청에서 권장하는 산지양계(산닭) : 청리 토종닭으로 자연 농업 사료를 활용하여 사육\n-. 자연방사 동물복지 , 무항생제 , 유정란으로 난각번호 1번을 획득한 건강한 유정란\n-. 갓 태어난 병아리 때부터 자연농업으로 사육하여 이유식, 유아식등 어린아기들에게 좋은 계란\n-. 집란 후 35일 보관 가능 / 냉장 보관\n-. 계란은 뾰족한 부분이 밑으로 가도록 보관"
+          },
+          "update_user_name": {
+            "S": "박찬호"
+          },
+          "update_datetime": {
+            "S": "2023-06-20 16:04:02.776"
+          },
+          "photo_presigned_url": {
+            "S": "FT_008476d8-96a0-4d30-bdf6-66bf95ead64a"
+          }
+        }
+      }
+    ],
+    "farm_type": "노지",
+    "marked_datetime": "2023-07-03 10:02:49.396",
+    "product_id_list": [
+      {
+        "S": "PI_ad977f1d-1080-4f43-b85e-ad4fd068ca9e"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": true,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-06-20 16:36:42.014",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_a2fde644-d874-4995-83f1-ecbbbba58bbd",
+    "farm_address": "세종특별자치시 한누리",
+    "farm_available": true,
+    "farm_cultivar": "테스트 과일",
+    "farm_location": "세종특별자치시 한누리",
+    "farm_name": "비플 개발 농가",
+    "farm_photo_list": [
+      {
+        "M": {
+          "photo_description": {
+            "S": ""
+          },
+          "update_user_name": {
+            "S": "홍길동"
+          },
+          "update_datetime": {
+            "S": "2023-02-08 13:27:54.453"
+          },
+          "photo_presigned_url": {
+            "S": "https://ollivanders-v2.s3.amazonaws.com/farm/photo/FP_cbb4aa62-b83b-46ab-98e2-9c524b30b4c3"
+          }
+        }
+      },
+      {
+        "M": {
+          "photo_description": {
+            "S": ""
+          },
+          "update_user_name": {
+            "S": "홍길동"
+          },
+          "update_datetime": {
+            "S": "2023-07-05 09:57:21.912"
+          },
+          "photo_presigned_url": {
+            "S": "https://ollivanders-v2.s3.amazonaws.com/farm/photo/FP_28894be6-35bd-4fdc-ab62-8af18c603ae5"
+          }
+        }
+      }
+    ],
+    "farm_type": "논밭",
+    "marked_datetime": "2023-01-17 18:52:41.527",
+    "product_id_list": [
+      {
+        "S": "PI_c8bbb18e-b4e1-43d4-9518-7be4649718fc"
+      },
+      {
+        "S": "PI_ccfcae2a-59a0-4ec0-b19a-2d5c0cf0a1ef"
+      },
+      {
+        "S": "PI_dd964db6-6b4d-4ad9-8cb2-9804c20302f3"
+      },
+      {
+        "S": "PI_23b52817-0c53-4228-808c-020bd0d64f72"
+      },
+      {
+        "S": "PI_af8f44cd-fa6f-47c5-ab2d-989e29e80ebb"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-02-03 14:31:03.755",
+    "update_user_name": "홍길동"
+  },
+  {
+    "farm_id": "FI_5a7d497e-caa0-40b3-8051-811ebf65cfb4",
+    "farm_address": "전남 무안군 현경면 오류길 117-50",
+    "farm_available": true,
+    "farm_cultivar": "가공 고구마 (제품: 바삭 or 말랑 / 수량: 10봉지)",
+    "farm_location": "전남 무안군 현경면 오류길 117-50",
+    "farm_name": "행복한 고구마",
+    "farm_photo_list": "",
+    "farm_type": "산지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_d0ef110f-4283-47d7-bc7c-4f22fa01d0a6"
+      },
+      {
+        "S": "PI_43afa041-5b82-4d4f-951c-b1e76b547ca7"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": true,
+      "coupang": true,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": true
+    },
+    "update_datetime": "2023-01-10 18:53:00.762",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_7060466c-6b6a-4f95-a25f-cc9755cbcc1e",
+    "farm_address": "전남 나주시 금천면 오강길 66-17",
+    "farm_available": true,
+    "farm_cultivar": "나주 신고 배 (등급: 중  /  과수: 00 ~ 00과))",
+    "farm_location": "전남 나주시 금천면 오강길 66-17",
+    "farm_name": "햇살 품은 배",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_cfe7bd94-328f-4126-ae62-44a211252153"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-10 11:20:23.686",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_878ddb7d-24ce-4381-a6e6-d44a7a8242d0",
+    "farm_address": "서울 서대문구 연희로 42",
+    "farm_available": true,
+    "farm_cultivar": "묘약 담금주 키트 2구 선물용 (500mlx2ea)",
+    "farm_location": "서울 서대문구 연희로 42",
+    "farm_name": "(주)애꼼",
+    "farm_photo_list": [
+      {
+        "M": {
+          "photo_description": {
+            "S": "-. 담당자 : 김지은 매니저\n-. 연락처 : 010-2102-3493\n-. 택배사: CJ대한통운\n-. 택배비: 3,000원 (제주도 3,000원 추가비용 발생, 그 외 도서산간지역 추가택배비 별도 안내예정)\n-. 합포장 갯수 제한 없음\n-. 5만원 이상 무료배송"
+          },
+          "update_user_name": {
+            "S": "박찬호"
+          },
+          "update_datetime": {
+            "S": "2023-04-13 16:59:52.210"
+          },
+          "photo_presigned_url": {
+            "S": "FT_75e617ac-21c3-4e0b-a767-176c78e9c783"
+          }
+        }
+      },
+      {
+        "M": {
+          "photo_description": {
+            "S": "500ml 2구 선물용 위탁 공급가"
+          },
+          "update_user_name": {
+            "S": "박찬호"
+          },
+          "update_datetime": {
+            "S": "2023-04-14 13:40:01.098"
+          },
+          "photo_presigned_url": {
+            "S": "https://ollivanders-v2.s3.amazonaws.com/farm/photo/FP_70a1a7f7-2433-4296-92b5-4e3fbcc226c9"
+          }
+        }
+      }
+    ],
+    "farm_type": "술",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_e134adde-ecb3-48fa-8458-fd510f837fdf"
+      },
+      {
+        "S": "PI_77e06e3d-ba03-4c17-95e9-6174522e6658"
+      },
+      {
+        "S": "PI_ba00be8b-8d21-415a-87e7-9146393e3447"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": true,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-04-13 16:36:17.237",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_5f085c53-c658-4982-a521-6d6c6d2de8e4",
+    "farm_address": "제주특별자치도 서귀포시 표선면 토산망동로 78",
+    "farm_available": true,
+    "farm_cultivar": "한라봉 (구분: 일반용 / 등급:  0 / 과수: 00~00과 ) ",
+    "farm_location": "제주특별자치도 서귀포시 표선면 토산망동로 78",
+    "farm_name": "하느리 농원",
+    "farm_photo_list": "",
+    "farm_type": "노지",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_33be4c3f-1626-4377-b70b-cb8db5f238c8"
+      },
+      {
+        "S": "PI_8a27bc4e-a9ad-4698-b356-49a091fe45da"
+      },
+      {
+        "S": "PI_af67e2d2-db7c-40af-a83b-f975157632ca"
+      },
+      {
+        "S": "PI_1e22a052-83dd-44b5-ab7b-b5018f7c1646"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-01-10 17:53:28.304",
+    "update_user_name": "박찬호"
+  },
+  {
+    "farm_id": "FI_bbbfdcc9-8a76-4ab9-8e2c-f42e629fc79c",
+    "farm_address": "부산 서구 충무대로82번길 17",
+    "farm_available": false,
+    "farm_cultivar": "베이커리",
+    "farm_location": "부산 서구 충무대로82번길 17",
+    "farm_name": "부산 고등어빵",
+    "farm_photo_list": "",
+    "farm_type": "베이커리",
+    "marked_datetime": "",
+    "product_id_list": [
+      {
+        "S": "PI_042b0564-46a4-45e3-8c70-08d9b912d0d2"
+      },
+      {
+        "S": "PI_acaece49-b7ab-43c6-92c0-7398dd8848de"
+      },
+      {
+        "S": "PI_41ebde64-89b2-43a1-935f-1c8e35f9bfcd"
+      }
+    ],
+    "sales_channel": {
+      "wadiz": false,
+      "cingle": false,
+      "kakao": false,
+      "coupang": false,
+      "alwayz": false,
+      "11thstreet": false,
+      "naver": false
+    },
+    "update_datetime": "2023-03-16 17:04:59.457",
+    "update_user_name": "박찬호"
   }
 ]
