@@ -1,0 +1,9 @@
+.flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info_box {
+  width: 50%;
+}

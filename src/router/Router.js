@@ -4,7 +4,9 @@ import Home from "../pages/Home";
 import Farm from "../pages/Farm";
 import FarmDetail from "../pages/FarmDetail";
 import FarmAdd from "../pages/FarmAdd";
+import ProductAdd from "../pages/product/ProductAdd";
 import ErrorPage from "../pages/error-page";
+import ProductPriceHistory from "../pages/product/ProductPriceHistory";
 
 const rootRouter = createBrowserRouter([
   {
@@ -24,6 +26,17 @@ const rootRouter = createBrowserRouter([
       {
         path: "/farm/:farm_id",
         element: <FarmDetail />,
+        children: [
+          {
+            index: true,
+            path: "/farm/:farm_id/product_add",
+            element: <ProductAdd />,
+          },
+          {
+            path: "/farm/:farm_id/product_price",
+            element: <ProductPriceHistory />,
+          },
+        ],
       },
       {
         path: "/add",

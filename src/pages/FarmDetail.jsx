@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Outlet, useNavigate, useParams } from "react-router-dom";
 
 export default function FarmDetail() {
   const { farm_id } = useParams();
+  const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [foundFarmItem, setFoundFarmItem] = useState([]);
   useEffect(() => {
@@ -21,6 +22,18 @@ export default function FarmDetail() {
       });
   }, []);
 
-  console.log(foundFarmItem);
-  return <div>{foundFarmItem.farm_address}</div>;
+  return (
+    <div>
+      {foundFarmItem.farm_address}
+      <button onClick={() => navigate(`/farm/${farm_id}`)}>팜정보</button>
+      <button onClick={() => navigate(`/farm/${farm_id}/product_add`)}>
+        상품등록
+      </button>
+      <button onClick={() => navigate(`/farm/${farm_id}/product_price`)}>
+        상품가격정보
+      </button>
+
+      <Outlet />
+    </div>
+  );
 }

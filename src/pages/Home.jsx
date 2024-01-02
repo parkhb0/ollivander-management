@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import ProductList from "../components/ProductList";
 import style from "../styles/Home.module.css";
 
@@ -6,6 +6,7 @@ export default function Home() {
   const [farmList, setFarmList] = useState([]);
   const [loading, setLoading] = useState(false);
   const [farmType, setFarmType] = useState([]);
+  const loader = useRef(null);
 
   useEffect(() => {
     setLoading(true);
@@ -17,6 +18,44 @@ export default function Home() {
         setLoading(false);
       });
   }, []);
+
+  // const getBaljuList = useCallback(async () => {
+  //   // await fetch("/data/farmList.json");
+  //   // await setFarmList((prev) => [...prev, ...farmList]);
+  //   await fetch("/data/farmList.json")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       console.log(data);
+  //       // setFarmList((data) => [...data, ...farmList]);
+  //       // setFarmType(data);
+  //       setLoading(false);
+  //     });
+  // }, [farmList]);
+
+  // // loader 에 도달했을 때 이벤트
+  // const handleObserver = useCallback(
+  //   (entries) => {
+  //     const target = entries[0];
+  //     if (target.isIntersecting) {
+  //       console.log("1");
+  //       getBaljuList();
+  //     }
+  //   },
+  //   [getBaljuList]
+  // );
+
+  // IntersectionObserver(스크롤 비동기 감지)
+  // useEffect(() => {
+  //   const option = {
+  //     root: null,
+  //     rootMargin: "20px",
+  //     threshold: 0,
+  //   };
+  //   const observer = new IntersectionObserver(handleObserver, option);
+
+  //   if (loader.current) observer.observe(loader.current);
+  //   return () => observer.disconnect();
+  // }, [handleObserver]);
 
   const isFarmType = Array.from(
     new Set(farmType.map((a) => JSON.stringify(a["farm_type"]))),
@@ -48,8 +87,6 @@ export default function Home() {
     }
   };
 
-  console.log("farmType =", farmType);
-
   return (
     <div className={style.product}>
       <div className={style.selectWrap}>
@@ -74,6 +111,7 @@ export default function Home() {
         </div>
       </div>
       <ProductList farmList={farmList} />
+      {/* <div ref={loader} /> */}
     </div>
   );
 }
