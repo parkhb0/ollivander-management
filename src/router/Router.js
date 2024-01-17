@@ -7,21 +7,27 @@ import FarmAdd from "../pages/FarmAdd";
 import ProductAdd from "../pages/product/ProductAdd";
 import ErrorPage from "../pages/error-page";
 import ProductPriceHistory from "../pages/product/ProductPriceHistory";
+import Login from "../pages/Login";
+import ProtectedRoutes from "../pages/auth/ProtectedRoutes";
 
 const rootRouter = createBrowserRouter([
   {
+    index: true,
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    element: <ProtectedRoutes />,
     children: [
-      {
-        index: true,
-        path: "/",
-        element: <Home />,
-      },
+      // {
+      //   index: true,
+      //   path: "/",
+      //   element: <Home />,
+      // },
       {
         path: "/farm",
-        element: <Farm />,
+        element: <Home />,
       },
       {
         path: "/farm/:farm_id",
@@ -43,6 +49,10 @@ const rootRouter = createBrowserRouter([
         element: <FarmAdd />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
 

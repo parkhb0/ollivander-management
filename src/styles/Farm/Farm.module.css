@@ -1,0 +1,49 @@
+.farmCardWrap {
+  width: 100%;
+  height: 100%;
+}
+
+.famrInfoWrap {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: #ff3300;
+}
+
+.famrImageBox {
+  width: 50%;
+  padding: 10px;
+  background-color: #fbffc8;
+}
+
+.famrImageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.famrInfoBox {
+  width: 50%;
+  padding: 10px;
+  background-color: #d5ffb1;
+}
+
+.famrInfoBox > p {
+  height: 15px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 720px) {
+  .famrInfoWrap {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .famrImageBox {
+    width: 100%;
+    height: 300px;
+  }
+  .famrInfoBox {
+    width: 100%;
+    height: 300px;
+  }
+}

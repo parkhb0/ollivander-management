@@ -13,7 +13,7 @@ export default function Navar() {
 
   return (
     <div className={styles.leftMenu}>
-      <div onClick={() => navigate("/")}>
+      <div onClick={() => navigate("/farm")}>
         <FaThList className={styles.icon} />
         {!isMobile ? "리스트" : null}
       </div>

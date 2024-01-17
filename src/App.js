@@ -1,30 +1,35 @@
-import React from "react";
-import Navar from "./components/Navar";
-import styles from "./styles/Layout.module.css";
-import { Outlet } from "react-router-dom";
-import { worker } from "./mocks/worker";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import useAuth from "./hooks/useAuth";
+import { fetchUserLogin, login, logout } from "./reducers/user";
 // if (process.env.NODE_ENV === "development") {
 //   console.log("1");
 //   worker.start();
 // }
 
 export default function App() {
+  const [userEmail, setUserEmail] = useState("");
+  const [userPassword, setUserPassword] = useState("");
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const isAuth = useAuth();
+
+  const handelSubmit = async (e) => {
+    e.preventDefault();
+    console.log(userEmail);
+    console.log(userPassword);
+    dispatch(login());
+  };
+
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.leftSectionWrapper}>
-          <section className={styles.leftSection}>
-            <div className={styles.leftSectionFixed}>
-              <Navar />
-            </div>
-          </section>
-        </div>
-        <div className={styles.rightSectionWrapper}>
-          <div className={styles.rightSectionInner}>
-            <Outlet />
-          </div>
-        </div>
-      </div>
+      <form onSubmit={handelSubmit}>
+        <input type="text" onChange={(e) => setUserEmail(e.target.value)} />
+        <input type="text" onChange={(e) => setUserPassword(e.target.value)} />
+        <button>Login</button>
+      </form>
     </>
   );
 }

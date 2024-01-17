@@ -1,12 +1,16 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import ProductList from "../components/ProductList";
+import Banner from "../components/Banner/banner";
+import ProductSkeleton from "../components/design/Skeleton/ProductSkeleton";
+import ProductCard from "../components/ProductCard";
+// import ProductList from "../components/ProductList";
 import style from "../styles/Home.module.css";
+import { useInView } from "react-intersection-observer";
 
 export default function Home() {
   const [farmList, setFarmList] = useState([]);
   const [loading, setLoading] = useState(false);
   const [farmType, setFarmType] = useState([]);
-  const loader = useRef(null);
+  const [ref, inView] = useInView();
 
   useEffect(() => {
     setLoading(true);
@@ -18,44 +22,6 @@ export default function Home() {
         setLoading(false);
       });
   }, []);
-
-  // const getBaljuList = useCallback(async () => {
-  //   // await fetch("/data/farmList.json");
-  //   // await setFarmList((prev) => [...prev, ...farmList]);
-  //   await fetch("/data/farmList.json")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       // setFarmList((data) => [...data, ...farmList]);
-  //       // setFarmType(data);
-  //       setLoading(false);
-  //     });
-  // }, [farmList]);
-
-  // // loader 에 도달했을 때 이벤트
-  // const handleObserver = useCallback(
-  //   (entries) => {
-  //     const target = entries[0];
-  //     if (target.isIntersecting) {
-  //       console.log("1");
-  //       getBaljuList();
-  //     }
-  //   },
-  //   [getBaljuList]
-  // );
-
-  // IntersectionObserver(스크롤 비동기 감지)
-  // useEffect(() => {
-  //   const option = {
-  //     root: null,
-  //     rootMargin: "20px",
-  //     threshold: 0,
-  //   };
-  //   const observer = new IntersectionObserver(handleObserver, option);
-
-  //   if (loader.current) observer.observe(loader.current);
-  //   return () => observer.disconnect();
-  // }, [handleObserver]);
 
   const isFarmType = Array.from(
     new Set(farmType.map((a) => JSON.stringify(a["farm_type"]))),
@@ -87,31 +53,65 @@ export default function Home() {
     }
   };
 
+  const productFetch = () => {
+    fetch("/data/farmList.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setFarmList([...farmList, ...data]);
+        setFarmType([...farmList, ...data]);
+        setLoading(false);
+      });
+  };
+
+  useEffect(() => {
+    // inView가 true 일때만 실행한다.
+    if (inView) {
+      console.log(inView, "무한 스크롤 요청 🎃");
+      productFetch();
+    }
+  }, [inView]);
+
   return (
-    <div className={style.product}>
-      <div className={style.selectWrap}>
-        <select className={style.select} onChange={handleChangeSelect}>
-          <option value="all">전체</option>
-          {isFarmName &&
-            isFarmName.map((name, index) => (
-              <option key={index} value={name}>
-                {name}
-              </option>
-            ))}
-        </select>
-      </div>
-      <div style={{ width: "100%", overflowX: "scroll" }}>
-        <div className={style.filterWrap}>
-          {farmType &&
-            isFarmType.map((type, index) => (
-              <button key={index} value={type} onClick={handleFarmTypeFilter}>
-                {type}
-              </button>
-            ))}
+    <>
+      <div className={style.product}>
+        <div className={style.selectWrap}>
+          <select className={style.select} onChange={handleChangeSelect}>
+            <option value="all">전체</option>
+            {isFarmName &&
+              isFarmName.map((name, index) => (
+                <option key={index} value={name}>
+                  {name}
+                </option>
+              ))}
+          </select>
         </div>
+        <div style={{ width: "100%", overflowX: "scroll" }}>
+          <div className={style.filterWrap}>
+            {farmType &&
+              isFarmType.map((type, index) => (
+                <button key={index} value={type} onClick={handleFarmTypeFilter}>
+                  {type}
+                </button>
+              ))}
+          </div>
+        </div>
+        <Banner />
+        <div style={{ width: "100%", minHeight: "600px" }}>
+          {loading ? (
+            <div className={style.product_list}>
+              <ProductSkeleton cards={12} />
+            </div>
+          ) : (
+            <div className={style.product_list}>
+              {farmList &&
+                farmList.map((farm, index) => (
+                  <ProductCard key={farm.farm_id + index} farm={farm} />
+                ))}
+            </div>
+          )}
+        </div>
+        <div ref={ref}>안녕</div>
       </div>
-      <ProductList farmList={farmList} />
-      {/* <div ref={loader} /> */}
-    </div>
+    </>
   );
 }

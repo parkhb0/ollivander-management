@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import style from "../../styles/product/ProductPriceHistory.module.css";
 import {
@@ -12,6 +12,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import { BeatLoader } from "react-spinners";
 const data = [
   {
     name: "Page A",
@@ -103,7 +104,7 @@ export default function ProductPriceHistory() {
   return (
     <div className={style.flex}>
       {loading ? (
-        "로디중"
+        <BeatLoader color="#36d7b7" />
       ) : (
         <>
           <div className={style.info_box}>
